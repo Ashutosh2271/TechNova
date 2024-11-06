@@ -57,8 +57,8 @@
 
           <div className="flex items-center justify-between">
             <div className="space-y-1">
-              <p className="text-sm text-gray-500 line-through">${(product.price * 1.2).toFixed(2)}</p>
-              <p className="text-xl font-bold text-blue-600">${product.price}</p>
+              <p className="text-sm text-gray-500 line-through">₹{(product.price * 1.2).toFixed(2)}</p>
+              <p className="text-xl font-bold text-blue-600">₹{product.price}</p>
             </div>
             <span className="bg-blue-100 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">
               Save 20%
